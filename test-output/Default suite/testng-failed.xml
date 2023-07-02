@@ -3,11 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="captureScreenshot.FacebookScreenshot">
+      <class name="webTables.Dynamic_Tables">
         <methods>
-          <include name="captureScreenshot"/>
+          <include name="Handle_Dynamic_Webtable"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- captureScreenshot.FacebookScreenshot -->
+      </class> <!-- webTables.Dynamic_Tables -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

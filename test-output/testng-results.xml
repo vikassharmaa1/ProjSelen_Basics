@@ -1,17 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="21568" started-at="2016-09-20T02:16:49Z" finished-at="2016-09-20T02:17:11Z">
+  <suite name="Default suite" duration-ms="13" started-at="2023-07-02T18:03:10Z" finished-at="2023-07-02T18:03:11Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="21568" started-at="2016-09-20T02:16:49Z" finished-at="2016-09-20T02:17:11Z">
-      <class name="captureScreenshot.FacebookScreenshot">
-        <test-method status="PASS" signature="captureScreenshot()[pri:0, instance:captureScreenshot.FacebookScreenshot@77cd7a0]" name="captureScreenshot" duration-ms="21478" started-at="2016-09-19T22:16:49Z" finished-at="2016-09-19T22:17:11Z">
+    <test name="Default test" duration-ms="13" started-at="2023-07-02T18:03:10Z" finished-at="2023-07-02T18:03:11Z">
+      <class name="testNG_Annotations.TestNGAnnotations">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testNG_Annotations.TestNGAnnotations@3fee9989]" name="beforeSuite" is-config="true" duration-ms="3" started-at="2023-07-02T23:33:10Z" finished-at="2023-07-02T23:33:10Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- captureScreenshot -->
-      </class> <!-- captureScreenshot.FacebookScreenshot -->
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testNG_Annotations.TestNGAnnotations@3fee9989]" name="beforeTest" is-config="true" duration-ms="1" started-at="2023-07-02T23:33:10Z" finished-at="2023-07-02T23:33:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testNG_Annotations.TestNGAnnotations@3fee9989]" name="beforeClass" is-config="true" duration-ms="0" started-at="2023-07-02T23:33:10Z" finished-at="2023-07-02T23:33:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testCase1()[pri:0, instance:testNG_Annotations.TestNGAnnotations@3fee9989]" name="testCase1" duration-ms="3" started-at="2023-07-02T23:33:11Z" finished-at="2023-07-02T23:33:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testNG_Annotations.TestNGAnnotations@3fee9989]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2023-07-02T23:33:11Z" finished-at="2023-07-02T23:33:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCase2()[pri:0, instance:testNG_Annotations.TestNGAnnotations@3fee9989]" name="testCase2" duration-ms="1" started-at="2023-07-02T23:33:11Z" finished-at="2023-07-02T23:33:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNG_Annotations.TestNGAnnotations@3fee9989]" name="afterMethod" is-config="true" duration-ms="0" started-at="2023-07-02T23:33:11Z" finished-at="2023-07-02T23:33:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testNG_Annotations.TestNGAnnotations@3fee9989]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2023-07-02T23:33:11Z" finished-at="2023-07-02T23:33:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNG_Annotations.TestNGAnnotations@3fee9989]" name="afterMethod" is-config="true" duration-ms="2" started-at="2023-07-02T23:33:11Z" finished-at="2023-07-02T23:33:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testNG_Annotations.TestNGAnnotations@3fee9989]" name="afterTest" is-config="true" duration-ms="0" started-at="2023-07-02T23:33:11Z" finished-at="2023-07-02T23:33:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testNG_Annotations.TestNGAnnotations@3fee9989]" name="afterClass" is-config="true" duration-ms="0" started-at="2023-07-02T23:33:11Z" finished-at="2023-07-02T23:33:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testNG_Annotations.TestNGAnnotations@3fee9989]" name="afterSuite" is-config="true" duration-ms="0" started-at="2023-07-02T23:33:11Z" finished-at="2023-07-02T23:33:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testNG_Annotations.TestNGAnnotations -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
